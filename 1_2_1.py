@@ -42,9 +42,11 @@ plt.figure(2)
 plt.plot(tout, xout[1, :])
 plt.xlabel('velocity, m/s')
 plt.ylabel('position, m')
+plt.axis([0, 10, 0, 0.5])
 
 plt.figure(3)
 plt.plot(tout, xout[2, :])
-plt.xlabel('velocity, m/s')
+plt.xlabel('mass, kg')
 plt.ylabel('position, m')
+
 plt.show()
